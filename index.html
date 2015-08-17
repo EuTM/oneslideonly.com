@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One slide only - Startup Weekend Maastricht</title>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300,400italic,300italic,700italic' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta property="og:image" content="https://startupweekendmaastricht.com/images/facebook-share.png"/>
+  <meta property="og:url" content="https://startupweekendmaastricht.com/"/>
+  <meta property="og:site_name" content="Startup Weekend Maastricht"/>
+  <meta property="og:description" content="Are you ready for the most intense 54 entrepreneurial hours of your life? Join us for our 1st Startup Weekend edition in Maastricht! Realise your ideas - realise yourself!"/>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@SWMaastricht">
+  <meta name="twitter:creator" content="@SWMaastricht">
+  <meta name="twitter:title" content="Startup Weekend Maastricht">
+  <meta name="twitter:description" content="Are you ready for the most intense 54 entrepreneurial hours of your life? Join us for our 1st Startup Weekend edition in Maastricht! Realise your ideas - realise yourself!">
+  <meta name="twitter:image" content="https://startupweekendmaastricht.com/images/facebook-share.png">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <style media="screen">
+  body {font-family: "Roboto";}
+    #container {position: absolute; top:0; left:0;}
+    h1 {font-size: 30px; text-align: center;}
+    .logo {text-align: center;}
+    nav {text-align: center; margin-top: 20px;}
+    .main-call-to-action {
+      background: #da0133;
+padding: 20px;
+color: #fff;
+border-radius: 5px;
+text-decoration: none;
+display:inline-block;
+    }
+  </style>
+</head>
+<body>
+<div id="container">
+
+
+  <header>
+    <div class="wrapper">
+      <div class="logo"><a href="/"><img src="logo.png" width="600"></a></div>
+
+    </div>
+    <div class="header-image"></div>
+  </header>
+
+  <section>
+  <h1>  54 Hours of learning the methods of entrepreneurship </h1>
+  </section>
+  <nav>
+  <a href="http://www.eventbrite.com/e/startup-weekend-maastricht-1015-tickets-17009717523" class="main-call-to-action">Buy Ticket</a>
+  </nav>
+</div>
+<script type="text/javascript">
+
+  function center(){
+
+      var container = document.getElementById('container');
+      var width = container.clientWidth;
+      var height = container.clientHeight;
+
+      console.log(width);
+
+      var windowWidth = window.innerWidth;
+      var windowHeight = window.innerHeight;
+
+      container.style.left = ((windowWidth/2) - (width/2)) + "px";
+      container.style.top = ((windowHeight/2) - (height/2)) + "px";
+
+      console.log(windowWidth);
+      console.log(windowHeight);
+
+  }
+
+  window.onload = center;
+  window.onresize = center;
+
+</script>
+</body>
+</html>
